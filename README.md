@@ -3,7 +3,7 @@ This project analyzes seller performance in an e-commerce marketplace using the 
 
 The goal is to extract insights about marketplace operations and build a machine learning model to predict late delivery risk.
 
-Key Objectives
+## Key Objectives
 
 • Analyze revenue trends across the marketplace
 • Identify top performing sellers
@@ -12,10 +12,9 @@ Key Objectives
 • Predict late delivery using machine learning
 
 Machine Learning Task
-Predicting Late Delivery Risk
 
+## Predicting Late Delivery Risk
 The model predicts whether an order will be delivered after the estimated delivery date.
-
 Target variable:
 
 late_delivery
@@ -29,37 +28,41 @@ Models used:
 • Gradient Boosting
 
 Final model:
-
 Soft Voting Ensemble
-Project Pipeline
+
+## Project Pipeline
 1 Data Collection
 2 Data Cleaning
 3 Feature Engineering
 4 Business Analytics
 5 Machine Learning
 6 Model Evaluation
-Key Features
 
+
+## Key Features
 Engineered features include:
-
 delivery_delay
 shipping_days
 product_volume
 seller_state
 payment_installments
-Model Evaluation Metrics
+
+## Model Evaluation Metrics
 ROC-AUC
 Precision
 Recall
 F1 Score
 Confusion Matrix
-Project Structure
+
+## Project Structure
 data/
 notebooks/
 src/
 models/
 README.md
-Future Improvements
+
+
+## Future Improvements
 Power BI dashboard
 Streamlit analytics application
 Real-time seller risk prediction
